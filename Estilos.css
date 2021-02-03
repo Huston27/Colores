@@ -1,0 +1,33 @@
+header{
+    height: 10vh;
+}
+
+
+footer{
+    height: 10vh;
+}
+
+.container{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+.reloj{
+    width: 100%;
+    padding: 20px;
+    text-align:center;
+    font-size: 2em;
+}
+
+p{
+    display: inline-block;
+}
+
+button{
+   height: 200px;
+   width: 200px;
+}
